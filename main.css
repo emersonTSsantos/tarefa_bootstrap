@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./imagens/backgroud.jpg');
+    background-size: cover; /* ou contain, dependendo do efeito desejado */
+    background-position: center; /* ou outras posições */
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: 1080px;
+    margin-left: 15%;
+}
+
+header {
+    background-image: url(./imagens/backgroud.jpg);
+    color: aliceblue;
+    align-items: center;
+}
+.h1{
+    text-align: center;
+}
+
+.nav-item a{
+    color: aliceblue;
+}
+
+.primeiraImagem {
+    width: 854px;
+    margin-left: 10%;
+}
+
+.segundaImagem {
+    width: 500px;
+    margin-left: 26%;
+}
+
+.terceiraImagem {
+    margin-left: 26%;
+    width: 500px;
+
+}
+
+.tituloSobre {
+    color: aliceblue;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#sobre {
+    color: aliceblue;
+}
+
+.tituloProjetos {
+    color: aliceblue;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+
+    body {
+        max-width: 850px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .primeiraImagem {
+        width: 554px;
+        margin-left: 10%;
+    }
+
+    .segundaImagem {
+        width: 325px;
+        margin-left: 26%;
+    }
+
+    .terceiraImagem {
+        margin-left: 26%;
+        width: 325px;
+    
+    }
+
+    .carousel-inner img {
+        
+    }
+}
+
+@media screen and (max-width: 641px) {
+    body {
+        max-width: 850px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .primeiraImagem {
+        width: 338px;
+        margin-left: 4%;
+    }
+
+    .segundaImagem {
+        width: 200px;
+        margin-left: 26%;
+    }
+
+    .terceiraImagem {
+        margin-left: 26%;
+        width: 200px;
+    
+    }
+}
+
